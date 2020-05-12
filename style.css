@@ -1,0 +1,45 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font:1.6rem sans-serif;
+    margin: 20;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 20;
+    padding: 0;
+    list-style-type: none;
+    font-weight: 100;
+}
+a{
+   text-decoration: none;
+   color: #222; 
+}
+*{
+    box-sizing: border-box; 
+}
+
+/* theme */
+header h1,h1,h2,h3,p,ul,ol{
+    line-height: 2.5rem;
+    text-align: center;
+    color: #222;
+}
+main ul{
+    max-width: 40rem;
+    line-height: 4.5rem;
+    margin: 2.0rem auto;
+}
+main ul li{
+    padding: 0.5rem;
+    background-color: #fafafa;
+}
+main ul li:nth-child(2n + 1){
+    background-color: #222;
+    color: #fff;
+}
+footer{
+    font-weight: 400;
+    font-size: 2.5rem;
+}

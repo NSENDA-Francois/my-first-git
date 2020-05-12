@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/screen.css">
+</head>
+<body>
+    <header>
+        <h1>Les formulaires</h1>
+    </header>
+    <main>
+       <section>
+           <h2>Accéder à votre espace</h2>
+       </section>
+       <section>
+           <p>Mot de passe</p>
+            <form action="connect.html" method="post"> <!--post et get -->
+               <!--post et get-->
+               <!--selecteur attribut valeur--> 
+               <label for="login">Votre login</label> 
+                 <input type="text" id="login" name="login" placeholder="Votre login" aria-required="true"
+                 autofocus>
+                 <!--
+                 type, name, placeholder, aria-required, autofocus, autocomplete jamais dans un champ mettre l'attribut value-->
+                 <label for="password">Votre mot de passe</label>
+                 <input type="password" name="password" placeholder="Votre mot de passe" aria-required="true">
+                 <input type="submit" value="Connexion">  
+            </form>
+        </section>
+        <footer>
+            <details>
+                <summary>Informations générales</summary>
+                <p>&copy; MIT-</p>
+            </details>
+        </footer>
+
+    </main>
+    <script src="./js/app_validate.js"></script>
+ </script>
+</body>
+</html>
